@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "f5157e3e-4817-41b4-9242-dc0381ac7711",
+    "Name": "Usrroyaltytypeclassic",
+    "ModifiedOnUtc": "\/Date(1731773456000)\/",
+    "Parent": {
+      "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
+      "Name": "BaseLookup"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Royalty Type Classic",
+    "DependsOn": []
+  }
+}

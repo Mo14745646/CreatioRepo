@@ -4,6 +4,7 @@
     "Name": "Usr",
     "ModifiedOnUtc": "\/Date(1731767645000)\/",
     "ManagerName": "ProcessSchemaManager",
-    "Caption": "My Demo"
+    "Caption": "My Demo",
+    "DependsOn": []
   }
 }
