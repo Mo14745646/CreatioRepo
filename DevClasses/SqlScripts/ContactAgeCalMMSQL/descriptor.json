@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "3feaf4a2-e6bc-648d-54b4-dc96633c29a5",
+    "Name": "ContactAgeCalMMSQL",
+    "DBEngineType": 0,
+    "InstallType": 0,
+    "ModifiedOnUtc": "\/Date(1731788153000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}

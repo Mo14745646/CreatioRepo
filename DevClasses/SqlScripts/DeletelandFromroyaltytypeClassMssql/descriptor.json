@@ -1,0 +1,11 @@
+﻿{
+  "SqlScript": {
+    "UId": "c25f5da6-c779-8743-48a6-f83c4266657c",
+    "Name": "DeletelandFromroyaltytypeClassMssql",
+    "DBEngineType": 0,
+    "InstallType": 2,
+    "ModifiedOnUtc": "\/Date(1731779703000)\/",
+    "BackwardCompatibilityConfirmed": false,
+    "DependsOn": []
+  }
+}
