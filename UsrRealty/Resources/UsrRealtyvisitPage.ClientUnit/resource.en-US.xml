@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Add Reality Visits " />
+			<Item Name="LocalizableStrings.addRecord_0ehvjlw_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_fi7oa76_caption.Value" Value="Add new" />
+		</Items>
+	</Group>
+</Resources>

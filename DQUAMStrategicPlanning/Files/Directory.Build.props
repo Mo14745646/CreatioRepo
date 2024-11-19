@@ -1,0 +1,27 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/Contact/Contact.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/Contact/Contact.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMActivities/DQUAMActivities.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMActivities/DQUAMActivities.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMCollaboratorsoperational/DQUAMCollaboratorsoperational.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMCollaboratorsoperational/DQUAMCollaboratorsoperational.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMGoalsRelationships/DQUAMGoalsRelationships.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMGoalsRelationships/DQUAMGoalsRelationships.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMObjectives/DQUAMObjectives.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMObjectives/DQUAMObjectives.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMOperational/DQUAMOperational.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMOperational/DQUAMOperational.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMOperationalPlan/DQUAMOperationalPlan.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMOperationalPlan/DQUAMOperationalPlan.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMOpportunitiegoalsrelationship/DQUAMOpportunitiegoalsrelationship.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMOpportunitiegoalsrelationship/DQUAMOpportunitiegoalsrelationship.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMOpportunities/DQUAMOpportunities.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMOpportunities/DQUAMOpportunities.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMOpportunitiesType/DQUAMOpportunitiesType.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMOpportunitiesType/DQUAMOpportunitiesType.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMPlannedactivity/DQUAMPlannedactivity.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMPlannedactivity/DQUAMPlannedactivity.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMPlannedActivityParcipant/DQUAMPlannedActivityParcipant.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMPlannedActivityParcipant/DQUAMPlannedActivityParcipant.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMStage/DQUAMStage.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMStage/DQUAMStage.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMStrategicGoals/DQUAMStrategicGoals.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMStrategicGoals/DQUAMStrategicGoals.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMStrategicPlanning/DQUAMStrategicPlanning.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMStrategicPlanning/DQUAMStrategicPlanning.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMstrengthgoalsrelationship/DQUAMstrengthgoalsrelationship.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMstrengthgoalsrelationship/DQUAMstrengthgoalsrelationship.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMStrengths/DQUAMStrengths.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMStrengths/DQUAMStrengths.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMThreats/DQUAMThreats.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMThreats/DQUAMThreats.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMThreatsgoalsrelationship/DQUAMThreatsgoalsrelationship.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMThreatsgoalsrelationship/DQUAMThreatsgoalsrelationship.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMTypeStrength/DQUAMTypeStrength.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMTypeStrength/DQUAMTypeStrength.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMWeaknessegoalsrelationship/DQUAMWeaknessegoalsrelationship.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMWeaknessegoalsrelationship/DQUAMWeaknessegoalsrelationship.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMWeaknesses/DQUAMWeaknesses.cs" Condition="Exists('$(PkgPath)/DQUAMStrategicPlanning/Schemas/DQUAMWeaknesses/DQUAMWeaknesses.cs')" />
+	</ItemGroup>
+</Project>

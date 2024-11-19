@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "8edf9295-d4bc-4659-ab9d-42326baed970",
+    "Name": "UsrRealtyvisitPage",
+    "ModifiedOnUtc": "\/Date(1731996075000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Add Reality Visits "
+  }
+}

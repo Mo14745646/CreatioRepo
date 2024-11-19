@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMAudit/DQUAMAudit.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMAudit/DQUAMAudit.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditChecklist/DQUAMAuditChecklist.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditChecklist/DQUAMAuditChecklist.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditChecklistCompliance/DQUAMAuditChecklistCompliance.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditChecklistCompliance/DQUAMAuditChecklistCompliance.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditCompliance/DQUAMAuditCompliance.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditCompliance/DQUAMAuditCompliance.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditMethodology/DQUAMAuditMethodology.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditMethodology/DQUAMAuditMethodology.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditPolicyChecklist/DQUAMAuditPolicyChecklist.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditPolicyChecklist/DQUAMAuditPolicyChecklist.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditPurpose/DQUAMAuditPurpose.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditPurpose/DQUAMAuditPurpose.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditResourcesNeeded/DQUAMAuditResourcesNeeded.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditResourcesNeeded/DQUAMAuditResourcesNeeded.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditScope/DQUAMAuditScope.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditScope/DQUAMAuditScope.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditTarget/DQUAMAuditTarget.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditTarget/DQUAMAuditTarget.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditTeamMembers/DQUAMAuditTeamMembers.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditTeamMembers/DQUAMAuditTeamMembers.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditType/DQUAMAuditType.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditType/DQUAMAuditType.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditTypeOfEvidences/DQUAMAuditTypeOfEvidences.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMAuditTypeOfEvidences/DQUAMAuditTypeOfEvidences.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMGuidelineChecklist/DQUAMGuidelineChecklist.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMGuidelineChecklist/DQUAMGuidelineChecklist.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMAudit/Schemas/DQUAMNewauditcompliance/DQUAMNewauditcompliance.cs" Condition="Exists('$(PkgPath)/DQUAMAudit/Schemas/DQUAMNewauditcompliance/DQUAMNewauditcompliance.cs')" />
+	</ItemGroup>
+</Project>

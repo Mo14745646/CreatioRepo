@@ -1,0 +1,26 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMActionType/DQUAMActionType.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMActionType/DQUAMActionType.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMAffectedParties/DQUAMAffectedParties.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMAffectedParties/DQUAMAffectedParties.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMEffectCategory/DQUAMEffectCategory.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMEffectCategory/DQUAMEffectCategory.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMEntity_0428f32/DQUAMEntity_0428f32.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMEntity_0428f32/DQUAMEntity_0428f32.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMEntity_3cff8fa/DQUAMEntity_3cff8fa.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMEntity_3cff8fa/DQUAMEntity_3cff8fa.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMEntity_7fa8308/DQUAMEntity_7fa8308.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMEntity_7fa8308/DQUAMEntity_7fa8308.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMEventPrevention/DQUAMEventPrevention.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMEventPrevention/DQUAMEventPrevention.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMFrequency/DQUAMFrequency.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMFrequency/DQUAMFrequency.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMGap/DQUAMGap.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMGap/DQUAMGap.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMIdentificationMethod/DQUAMIdentificationMethod.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMIdentificationMethod/DQUAMIdentificationMethod.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMIncident/DQUAMIncident.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMIncident/DQUAMIncident.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMIncidentSeverity/DQUAMIncidentSeverity.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMIncidentSeverity/DQUAMIncidentSeverity.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMIncidentType/DQUAMIncidentType.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMIncidentType/DQUAMIncidentType.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMIncTypeDQUAM/DQUAMIncTypeDQUAM.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMIncTypeDQUAM/DQUAMIncTypeDQUAM.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMPotentialReason/DQUAMPotentialReason.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMPotentialReason/DQUAMPotentialReason.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMPriority/DQUAMPriority.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMPriority/DQUAMPriority.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMQIP/DQUAMQIP.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMQIP/DQUAMQIP.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMQIPDepartment/DQUAMQIPDepartment.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMQIPDepartment/DQUAMQIPDepartment.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMQualityImprovemen/DQUAMQualityImprovemen.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMQualityImprovemen/DQUAMQualityImprovemen.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMQualityImprovementStatus/DQUAMQualityImprovementStatus.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMQualityImprovementStatus/DQUAMQualityImprovementStatus.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMTypeOfReportIncident/DQUAMTypeOfReportIncident.cs" Condition="Exists('$(PkgPath)/DQUAMQualityImprovemen/Schemas/DQUAMTypeOfReportIncident/DQUAMTypeOfReportIncident.cs')" />
+	</ItemGroup>
+</Project>

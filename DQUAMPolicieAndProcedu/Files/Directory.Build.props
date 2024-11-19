@@ -1,0 +1,21 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/Department/Department.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/Department/Department.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMDepartmentPolicy/DQUAMDepartmentPolicy.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMDepartmentPolicy/DQUAMDepartmentPolicy.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMDepartmentProcedure/DQUAMDepartmentProcedure.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMDepartmentProcedure/DQUAMDepartmentProcedure.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMFinalApprovalContactProcedure/DQUAMFinalApprovalContactProcedure.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMFinalApprovalContactProcedure/DQUAMFinalApprovalContactProcedure.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMMergedPolicy/DQUAMMergedPolicy.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMMergedPolicy/DQUAMMergedPolicy.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMMergedProcedure/DQUAMMergedProcedure.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMMergedProcedure/DQUAMMergedProcedure.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMOwnerContact/DQUAMOwnerContact.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMOwnerContact/DQUAMOwnerContact.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMPolicieAndProcedu/DQUAMPolicieAndProcedu.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMPolicieAndProcedu/DQUAMPolicieAndProcedu.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMPolicyApprovals/DQUAMPolicyApprovals.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMPolicyApprovals/DQUAMPolicyApprovals.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMPolicycontactrelationship/DQUAMPolicycontactrelationship.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMPolicycontactrelationship/DQUAMPolicycontactrelationship.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMPolicyStakeholders/DQUAMPolicyStakeholders.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMPolicyStakeholders/DQUAMPolicyStakeholders.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMPPRoles/DQUAMPPRoles.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMPPRoles/DQUAMPPRoles.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMProcedure/DQUAMProcedure.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMProcedure/DQUAMProcedure.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMStakeholdersContactProcedure/DQUAMStakeholdersContactProcedure.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMStakeholdersContactProcedure/DQUAMStakeholdersContactProcedure.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMStatusPolicy/DQUAMStatusPolicy.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMStatusPolicy/DQUAMStatusPolicy.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMStatusProcedure/DQUAMStatusProcedure.cs" Condition="Exists('$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/DQUAMStatusProcedure/DQUAMStatusProcedure.cs')" />
+	</ItemGroup>
+</Project>

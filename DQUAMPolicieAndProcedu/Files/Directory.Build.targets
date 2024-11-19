@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/DQUAMPolicieAndProcedu/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/DQUAMPolicieAndProcedu/Data/**" />
+		<Compile Remove="$(PkgPath)/DQUAMPolicieAndProcedu/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas\**" />
+		<Compile Remove="$(PkgPath)/DQUAMPolicieAndProcedu/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DQUAMPolicieAndProcedu/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DQUAMPolicieAndProcedu/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DQUAMPolicieAndProcedu/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DQUAMPolicieAndProcedu/Resources/**" />
+		<None Remove="$(PkgPath)/DQUAMPolicieAndProcedu/Assemblies/**" />
+		<None Remove="$(PkgPath)/DQUAMPolicieAndProcedu/Data/**" />
+		<None Remove="$(PkgPath)/DQUAMPolicieAndProcedu/SqlScripts/**" />
+		<None Remove="$(PkgPath)/DQUAMPolicieAndProcedu/Schemas/**" />
+		<None Remove="$(PkgPath)/DQUAMPolicieAndProcedu/Resources/**" />
+  </ItemGroup>
+</Project>

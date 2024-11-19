@@ -1,0 +1,21 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMComplianceManagement/DQUAMComplianceManagement.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMComplianceManagement/DQUAMComplianceManagement.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMComplianceManagementFrom/DQUAMComplianceManagementFrom.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMComplianceManagementFrom/DQUAMComplianceManagementFrom.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMComplianceManagementStatus/DQUAMComplianceManagementStatus.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMComplianceManagementStatus/DQUAMComplianceManagementStatus.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMComplianceManagementType/DQUAMComplianceManagementType.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMComplianceManagementType/DQUAMComplianceManagementType.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMDQUAM/DQUAMDQUAM.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMDQUAM/DQUAMDQUAM.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMEntity_1ccc712/DQUAMEntity_1ccc712.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMEntity_1ccc712/DQUAMEntity_1ccc712.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMEntity_22be4b1/DQUAMEntity_22be4b1.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMEntity_22be4b1/DQUAMEntity_22be4b1.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMEntity_23cdbf9/DQUAMEntity_23cdbf9.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMEntity_23cdbf9/DQUAMEntity_23cdbf9.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMIncomingCorrespondenceFrom/DQUAMIncomingCorrespondenceFrom.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMIncomingCorrespondenceFrom/DQUAMIncomingCorrespondenceFrom.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMInspectionType/DQUAMInspectionType.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMInspectionType/DQUAMInspectionType.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMPolicyAndProcedure/DQUAMPolicyAndProcedure.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMPolicyAndProcedure/DQUAMPolicyAndProcedure.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMQualityImprovement/DQUAMQualityImprovement.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMQualityImprovement/DQUAMQualityImprovement.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMResponsiblePerson/DQUAMResponsiblePerson.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMResponsiblePerson/DQUAMResponsiblePerson.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMStandardManagement/DQUAMStandardManagement.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMStandardManagement/DQUAMStandardManagement.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMStatusComp/DQUAMStatusComp.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMStatusComp/DQUAMStatusComp.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMStrategicPlan/DQUAMStrategicPlan.cs" Condition="Exists('$(PkgPath)/DQUAMDQUAM/Schemas/DQUAMStrategicPlan/DQUAMStrategicPlan.cs')" />
+	</ItemGroup>
+</Project>

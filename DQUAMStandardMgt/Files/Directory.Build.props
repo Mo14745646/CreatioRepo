@@ -1,0 +1,17 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/DQUAMStandardMgt/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/DQUAMStandardMgt/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStandardMgt/Schemas/BaseEntity/BaseEntity.cs" Condition="Exists('$(PkgPath)/DQUAMStandardMgt/Schemas/BaseEntity/BaseEntity.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMMeasurableRealtedToGap/DQUAMMeasurableRealtedToGap.cs" Condition="Exists('$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMMeasurableRealtedToGap/DQUAMMeasurableRealtedToGap.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMMeasurableRelatedToIncident/DQUAMMeasurableRelatedToIncident.cs" Condition="Exists('$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMMeasurableRelatedToIncident/DQUAMMeasurableRelatedToIncident.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMMeasurableRelatedToQIP/DQUAMMeasurableRelatedToQIP.cs" Condition="Exists('$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMMeasurableRelatedToQIP/DQUAMMeasurableRelatedToQIP.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMRelatedLvl2/DQUAMRelatedLvl2.cs" Condition="Exists('$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMRelatedLvl2/DQUAMRelatedLvl2.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStandardManagementStatus/DQUAMStandardManagementStatus.cs" Condition="Exists('$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStandardManagementStatus/DQUAMStandardManagementStatus.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStandardMgt/DQUAMStandardMgt.cs" Condition="Exists('$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStandardMgt/DQUAMStandardMgt.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStandardMgt_MeasurableElements/DQUAMStandardMgt_MeasurableElements.cs" Condition="Exists('$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStandardMgt_MeasurableElements/DQUAMStandardMgt_MeasurableElements.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStandardMgtLevel2Status/DQUAMStandardMgtLevel2Status.cs" Condition="Exists('$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStandardMgtLevel2Status/DQUAMStandardMgtLevel2Status.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStandardMgtLevel3/DQUAMStandardMgtLevel3.cs" Condition="Exists('$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStandardMgtLevel3/DQUAMStandardMgtLevel3.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStdMgtLvl1/DQUAMStdMgtLvl1.cs" Condition="Exists('$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStdMgtLvl1/DQUAMStdMgtLvl1.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStdMgtLvl2/DQUAMStdMgtLvl2.cs" Condition="Exists('$(PkgPath)/DQUAMStandardMgt/Schemas/DQUAMStdMgtLvl2/DQUAMStdMgtLvl2.cs')" />
+	</ItemGroup>
+</Project>

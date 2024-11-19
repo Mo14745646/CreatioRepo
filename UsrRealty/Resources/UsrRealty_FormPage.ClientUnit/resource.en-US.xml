@@ -6,6 +6,28 @@
 			<Item Name="LocalizableStrings.addRecord_olpmpny_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_u4o2doh_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_w5s97hp_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_xkmf4ad_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_ykchzga_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.AreaNotLessThan100.Value" Value="Area Not Less Than 100" />
+			<Item Name="LocalizableStrings.Button_y3qlgkx_caption.Value" Value="Push me!" />
+			<Item Name="LocalizableStrings.ExpansionPanel_4xjhfk5_title.Value" Value="Procedure" />
+			<Item Name="LocalizableStrings.ExpansionPanel_pa375hi_title.Value" Value="Reality Visits" />
+			<Item Name="LocalizableStrings.FutureDateWarning.Value" Value="Promoton Date Must be in Future" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_7dzbt48_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailAddBtn_ys10jif_caption.Value" Value="New" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_1bvr6tp_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailExportDataBtn_mlubqss_caption.Value" Value="Export to Excel" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_ne4pav0_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailImportDataBtn_o6kbpgu_caption.Value" Value="Data import" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_eyoji27_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailRefreshBtn_vkeuxih_caption.Value" Value="Refresh" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_fv8w2o3_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSearchFilter_jr0ifwn_placeholder.Value" Value="Search" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_8bqke5d_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.GridDetailSettingsBtn_gfdajr2_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.NumberInput_ewmrhik_label.Value" Value="Comma,Prece" />
+			<Item Name="LocalizableStrings.PriceCannotbeless.Value" Value="Price Cannot be less 50" />
+			<Item Name="LocalizableStrings.TabContainer_le78nfw_caption.Value" Value="New tab" />
 		</Items>
 	</Group>
 </Resources>

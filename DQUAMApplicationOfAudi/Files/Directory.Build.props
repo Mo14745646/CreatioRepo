@@ -1,0 +1,11 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/DQUAMApplicationOfAudi/Schemas/Activity/Activity.cs" Condition="Exists('$(PkgPath)/DQUAMApplicationOfAudi/Schemas/Activity/Activity.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMApplicationOfAudi/Schemas/DQUAMApplicationOfAudi/DQUAMApplicationOfAudi.cs" Condition="Exists('$(PkgPath)/DQUAMApplicationOfAudi/Schemas/DQUAMApplicationOfAudi/DQUAMApplicationOfAudi.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMApplicationOfAudi/Schemas/DQUAMAppOfAuditGuidelineChecklist/DQUAMAppOfAuditGuidelineChecklist.cs" Condition="Exists('$(PkgPath)/DQUAMApplicationOfAudi/Schemas/DQUAMAppOfAuditGuidelineChecklist/DQUAMAppOfAuditGuidelineChecklist.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMApplicationOfAudi/Schemas/DQUAMAppOfAuditPolicyChecklist/DQUAMAppOfAuditPolicyChecklist.cs" Condition="Exists('$(PkgPath)/DQUAMApplicationOfAudi/Schemas/DQUAMAppOfAuditPolicyChecklist/DQUAMAppOfAuditPolicyChecklist.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMApplicationOfAudi/Schemas/DQUAMAppOfAuditStandardChecklist/DQUAMAppOfAuditStandardChecklist.cs" Condition="Exists('$(PkgPath)/DQUAMApplicationOfAudi/Schemas/DQUAMAppOfAuditStandardChecklist/DQUAMAppOfAuditStandardChecklist.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMApplicationOfAudi/Schemas/DQUAMAppOfAuditStatus/DQUAMAppOfAuditStatus.cs" Condition="Exists('$(PkgPath)/DQUAMApplicationOfAudi/Schemas/DQUAMAppOfAuditStatus/DQUAMAppOfAuditStatus.cs')" />
+		<Compile Include="$(PkgPath)/DQUAMApplicationOfAudi/Schemas/DQUAMAppOfAuditTeamMembers/DQUAMAppOfAuditTeamMembers.cs" Condition="Exists('$(PkgPath)/DQUAMApplicationOfAudi/Schemas/DQUAMAppOfAuditTeamMembers/DQUAMAppOfAuditTeamMembers.cs')" />
+	</ItemGroup>
+</Project>

@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "3b5a6415-5032-4608-b4bc-f9b2673f4c6e",
     "Name": "UsrOfferType",
-    "ModifiedOnUtc": "\/Date(1731824549000)\/",
+    "ModifiedOnUtc": "\/Date(1731926818000)\/",
     "Parent": {
       "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
       "Name": "BaseLookup"

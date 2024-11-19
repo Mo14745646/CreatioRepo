@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/DQUAMApplicationOfAudi/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/DQUAMApplicationOfAudi/Data/**" />
+		<Compile Remove="$(PkgPath)/DQUAMApplicationOfAudi/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/DQUAMApplicationOfAudi/Schemas\**" />
+		<Compile Remove="$(PkgPath)/DQUAMApplicationOfAudi/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DQUAMApplicationOfAudi/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DQUAMApplicationOfAudi/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DQUAMApplicationOfAudi/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DQUAMApplicationOfAudi/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DQUAMApplicationOfAudi/Resources/**" />
+		<None Remove="$(PkgPath)/DQUAMApplicationOfAudi/Assemblies/**" />
+		<None Remove="$(PkgPath)/DQUAMApplicationOfAudi/Data/**" />
+		<None Remove="$(PkgPath)/DQUAMApplicationOfAudi/SqlScripts/**" />
+		<None Remove="$(PkgPath)/DQUAMApplicationOfAudi/Schemas/**" />
+		<None Remove="$(PkgPath)/DQUAMApplicationOfAudi/Resources/**" />
+  </ItemGroup>
+</Project>
